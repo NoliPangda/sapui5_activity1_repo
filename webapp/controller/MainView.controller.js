@@ -60,21 +60,6 @@ sap.ui.define([
         },
 
         onPressCheckout: function (){
-            // var oTextBundle = this.getOwnerComponent().getModel("i18n").getResourceBundle();
-            // var sMsgfln = oTextBundle.getText("reqFirstLastName");
-            // var sMsgfn = oTextBundle.getText("reqFirstName");
-            // var oInputFNameValue = this.getView().byId("idInptFName").getValue();
-            // var oInputLNameValue = this.getView().byId("idInptLName").getValue();
-        
-            // if (oInputFNameValue === "" && oInputLNameValue === "") {
-            //     this.fnDisplayMsg(sMsgfln);
-            //     return;
-            // }
-
-            // if (oInputFNameValue === "") {
-            //     this.fnDisplayMsg(sMsgfn);
-            //     return;
-            // }
             var oInputFName = this.getView().byId("idInptFName");
             var oInputLName = this.getView().byId("idInptLName");
             var oInputFNameValue = oInputFName.getValue();
