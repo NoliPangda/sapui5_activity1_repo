@@ -25,7 +25,8 @@
                         <Input id="idInputCC" value="" visible="false"/>                   
                     </f:content>
                 </f:SimpleForm>
-                <Table id="idTableSCart" inset="false">
+                <core:Fragment fragmentName="com.training.exer1pangda.fragment.ShoppingCart" type="XML" />
+                <!-- <Table id="idTableSCart" inset="false">
                     <headerToolbar>
                         <OverflowToolbar id="idOFT">
                             <content>
@@ -62,7 +63,7 @@
                             </cells>
                         </ColumnListItem>
                     </items>
-                </Table>
+                </Table> -->
             </VBox>
             <footer>
             <OverflowToolbar id="idOFTFooter">

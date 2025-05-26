@@ -79,14 +79,28 @@
           "target": [
             "TargetMainView"
           ]
+        },
+        {
+          "name": "RouteReviewPage",
+          "pattern": "Review/{firstName}",
+          "target": [
+            "TargetReviewPage"
+          ]
         }
       ],
       "targets": {
-        "TargetMainView": {
-          "id": "MainView",
-          "name": "MainView"
-        }
-      }
+          "TargetMainView": {
+              "viewType": "XML",
+              "transition": "slide",
+              "clearControlAggregation": false,
+                  "viewId": "MainView",
+                  "viewName": "MainView"
+                },
+          "TargetReviewPage": {
+              "viewId": "ReviewPage",
+              "viewName": "ReviewPage"
+                }
+            }
     },
     "rootView": {
       "viewName": "com.training.exer1pangda.view.App",
